@@ -5,8 +5,8 @@
         <version>3.1.0.6</version>
         <title>Pathsense Xamarin.Android Binding</title>
         <description>Xamarin.Android Binding for the pathsense library</description>
-        <authors>Allan Ritchie</authors>
-        <owners>Allan Ritchie</owners>
+        <authors>Eduard Schäfer</authors>
+        <owners>Eduard Schäfer</owners>
         <licenseUrl>https://github.com/DevEddy/PathsenseAndroidSdkGeofencingXamarinBinding</licenseUrl>
         <projectUrl>https://github.com/DevEddy/PathsenseAndroidSdkGeofencingXamarinBinding</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
