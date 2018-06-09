@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    
+<attr path="/api/package[@name='com.pathsense.protobuf']/class[@name='ByteString']/method[@name='iterator' and count(parameter)=0]" name="managedReturn">Java.Util.IIterator</attr>
+
+<remove-node path="/api/package[@name='com.pathsense.protobuf']/class[@name='AbstractParserInvoker']" />
+<remove-node path="/api/package[@name='com.pathsense.protobuf']/class[@name='AbstractParser']" />
+    
+<attr path="/api/package[@name='com.pathsense.protobuf']/class[@name='AbstractParserInvoker']/method[@name='parsePartialFrom' and count(parameter)=2 and parameter[1][@type='com.pathsense.protobuf.CodedInputStream'] and parameter[2][@type='com.pathsense.protobuf.ExtensionRegistryLite']]" name="managedType">Com.Pathsense.Protobuf.MessageLite</attr>
+<attr path="/api/package[@name='com.pathsense.protobuf']/class[@name='AbstractParser']/method[@name='parsePartialFrom' and count(parameter)=2 and parameter[1][@type='com.pathsense.protobuf.CodedInputStream'] and parameter[2][@type='com.pathsense.protobuf.ExtensionRegistryLite']]" name="managedType">Java.Lang.Object</attr>
+<attr path="/api/package[@name='com.pathsense.protobuf']/class[@name='AbstractParser']/method[@name='parsePartialDelimitedFrom' and count(parameter)=2 and parameter[1][@type='java.io.InputStream'] and parameter[2][@type='com.pathsense.protobuf.ExtensionRegistryLite']]" name="managedType">Java.Lang.Object</attr>
+
+<!-- Change a parameter name from the generic p0 to a more meaningful one. -->
+<attr path="/api/package[@name='com.pathsense.protobuf']/class[@name='AbstractParser']/method[@name='parsePartialDelimitedFrom']/parameter[@name='p0']" name="name">test0</attr>
+<attr path="/api/package[@name='com.pathsense.protobuf']/class[@name='AbstractParser']/method[@name='parsePartialDelimitedFrom']/parameter[@name='p1']" name="name">test1</attr>
+
+</metadata>
