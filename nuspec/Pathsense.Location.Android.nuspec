@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Pathsense.Location.Android.Eddy</id>
-        <version>3.1.0.7</version>
+        <version>3.2.0.0</version>
         <title>Pathsense Xamarin.Android Binding</title>
         <description>Xamarin.Android Binding for the pathsense library</description>
         <authors>Eduard Schäfer</authors>
@@ -12,6 +12,9 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <tags>pathsense location geofence android</tags>
         <releaseNotes>
+3.2.0.0
+updated pathsense library to v3.2.0.0
+
 3.1.0.7
 updated nuspec author
 
